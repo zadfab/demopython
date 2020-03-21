@@ -1,0 +1,6 @@
+<application>
+  <component name="kite">
+    <option name="paramInfoDelayMillis" value="0" />
+    <option name="showWelcomeNotification" value="false" />
+  </component>
+</application>
