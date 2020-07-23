@@ -1,6 +1,16 @@
 <application>
-  <component name="VimSettings">
-    <state version="5" enabled="false" />
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed S</text>
@@ -24,7 +34,121 @@
         <text>ctrl pressed D</text>
       </shortcut-conflict>
     </shortcut-conflicts>
-    <editor />
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1571774139609">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/new/venv/Include/hello.py" timestamp="1574440144504">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1572857592346">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1571765116517">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/calculator.py" timestamp="1571768254445">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/main/venv/return.py" timestamp="1571813150578">
+        <mark key="[" line="0" column="17" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/main/venv/thread.py" timestamp="1574149099546">
+        <mark key="[" line="9" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" timestamp="1571806798939">
+        <mark key="[" line="4" column="18" />
+        <mark key="]" line="4" column="11" />
+        <mark key="." line="4" column="11" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/secondprogram.py" timestamp="1571764266605">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/aaaa.py" timestamp="1574103218368">
+        <mark key="[" line="36" column="15" />
+        <mark key="]" line="0" column="22" />
+        <mark key="." line="0" column="22" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/untitled/new.py" timestamp="1571756009454">
+        <mark key="[" line="16" column="16" />
+        <mark key="]" line="16" column="17" />
+        <mark key="." line="16" column="17" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/dataread.py" timestamp="1574103428430">
+        <mark key="[" line="12" column="51" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/main/calculation.py" timestamp="1571811411807">
+        <mark key="[" line="2" column="12" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" timestamp="1573031070394">
+        <mark key="[" line="4" column="17" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text>print('ghghg'</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text>print('ghghg'</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CmltcG9ydCBkYXRhcmVhZA==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUgYXMgZHQKaWYgZHQoZHQubm93KCkueWVhcixkdC5ub3coKS5tb250aCxkdC5ub3coKS5kYXksOCk8ZHQubm93KCk8ZHQoZHQubm93KCkueWVhcixkdC5ub3coKS5tb250aCxkdC5ub3coKS5kYXksMTYpOgogICAgcHJpbnQoIldvcmtpbmcgaG91cnMuLi4uIikKZWxzZToKICAgIHByaW50KCJmdW4gaG91cnMiKQ==</text>
+      </register>
+      <register name="4" type="2">
+        <text>import time
+print(time.time.now())</text>
+      </register>
+      <register name="5" type="2">
+        <text>import  time
+for i in range(0,10):
+    print(i)
+    time.sleep(0.5)</text>
+      </register>
+      <register name="6" type="2">
+        <text>import time
+print(time.asctime(time.localtime(time.time())))</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">IyEvdXNyL2Jpbi9weXRob24zICAKaW1wb3J0IHNtdHBsaWIgIApzZW5kZXJfbWFpbCA9ICdzZW5kZXJAZnJvbWRvbWFpbi5jb20nICAKcmVjZWl2ZXJzX21haWwgPSBbJ3JlY2lldmVyQHRvZG9tYWluLmNvbSddICAKbWVzc2FnZSA9ICIiIkZyb206IEZyb20gUGVyc29uICVzIApUbzogVG8gUGVyc29uICVzIApTdWJqZWN0OiBTZW5kaW5nIFNNVFAgZS1tYWlsICAKVGhpcyBpcyBhIHRlc3QgZS1tYWlsIG1lc3NhZ2UuIAoiIiIlKHNlbmRlcl9tYWlsLHJlY2VpdmVyc19tYWlsKSAgCnRyeTogIAogICBzbXRwT2JqID0gc210cGxpYi5TTVRQKCdsb2NhbGhvc3QnKSAgCiAgIHNtdHBPYmouc2VuZG1haWwoc2VuZGVyX21haWwsIHJlY2VpdmVyc19tYWlsLCBtZXNzYWdlKSAgCiAgIHByaW50KCJTdWNjZXNzZnVsbHkgc2VudCBlbWFpbCIpICAKZXhjZXB0IEV4Y2VwdGlvbjogIAogICBwcmludCgiRXJyb3I6IHVuYWJsZSB0byBzZW5kIGVtYWlsIikgIA==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">CmNhbGVuZGFyLg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">dHJ5OgogICAgZGVmIHN1bShhLCBiKToKICAgICAgICBwcmludChhIC8gYikKICAgIHN1bSgxMCw1KQoKCmV4Y2VwdCAoRXhjZXB0aW9uLEFyaXRobWV0aWNFcnJvcixJT0Vycm9yKToKICAgIHByaW50KCJlbnRlciBub24gemVybyBudW1iZXJzIG9ubHkiKQplbHNlOgogICAgcHJpbnQoIkFkZGl0aW9uIG9mIHR3byBudW1iZXJzIGlzID0iLGVuZD0iICIpCmZpbmFsbHk6CiAgICBkZWYgc3VtKGEsYik6CiAgICAgICAgcHJpbnQoYStiKQogICAgc3VtKDMsNSkKCgoKCg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>#Compares the time. If the time is in between 8AM and 4PM, then it prints working hours otherwi</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="false" />
     <notifications>
       <idea-join enabled="false" />
       <idea-put enabled="false" />
